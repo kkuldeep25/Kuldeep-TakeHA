@@ -16,6 +16,8 @@ const SimpleComponent: React.FC = () => {
 <div> This proactive approach minimizes user impact and strengthens the product overall. Support tickets also reveal customer pain points, allowing the product team to: </div>
 <div> Focus on product robustness</div>
 <div> Align future roadmaps with customer needs</div>
+<div> ============================================</div>
+<div> Align future roadmaps with customer needs</div>
 
       
       {/* Example of adding a new line with a comment */}
