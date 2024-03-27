@@ -13,7 +13,7 @@ const SimpleComponent: React.FC = () => {
       <div>Support tickets are goldmines for product improvement! By analyzing these tickets, we can identify recurring issues that impact user experience. This helps the product team:</div>
 <div>Fix underlying architecture problems</div>
 <div>Move towards scalable designs</div>
-</div> This proactive approach minimizes user impact and strengthens the product overall. Support tickets also reveal customer pain points, allowing the product team to: </div>
+<div> This proactive approach minimizes user impact and strengthens the product overall. Support tickets also reveal customer pain points, allowing the product team to: </div>
 <div> Focus on product robustness</div>
 <div> Align future roadmaps with customer needs</div>
 
