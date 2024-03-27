@@ -20,7 +20,7 @@ const SimpleComponent: React.FC = () => {
 <div> ============================================</div>
 <div> Answer - Work with engineering teams during incidents and provide updates to internal and external stakeholders. </div>
 <div> Support managers are key communicators during incidents. We collaborate with internal teams to keep everyone informed (customers, partners, leaders) with clear, timely updates. This transparency manages expectations, minimizes impact, and empowers customers to react (like initiating disaster recovery plans). .</div>
-.<div>Post-resolution, we provide a summary and initial cause analysis. Once the full investigation concludes, we share the final report with customers and explain the post-incident review outcome. This builds trust and ensures everyone learns from the experience, preventing future occurrences.</div>
+<div>Post-resolution, we provide a summary and initial cause analysis. Once the full investigation concludes, we share the final report with customers and explain the post-incident review outcome. This builds trust and ensures everyone learns from the experience, preventing future occurrences.</div>
 
 <div> ===============================================</div>
 
