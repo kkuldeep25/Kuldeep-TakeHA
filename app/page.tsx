@@ -18,7 +18,7 @@ const SimpleComponent: React.FC = () => {
 <div> Align future roadmaps with customer needs</div>
 <div> By working together, support and product teams can deliver a superior customer experience, boosting satisfaction and loyalty. </div>
 <div> ============================================</div>
-<div> Answer Work with engineering teams during incidents and provide updates to internal and external stakeholders. </div>
+<div> Answer Work with engineering teams (during) incidents and provide updates to internal and external stakeholders. </div>
 
       
       {/* Example of adding a new line with a comment */}
