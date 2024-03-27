@@ -7,7 +7,7 @@ const SimpleComponent: React.FC = () => {
   return (
     <div>
       <h1>Rank your 5 most favorite Support tasks.</h1>
-      <p>Answer - Analyze hundreds of support tickets to spot trends the product team can use.</p>
+      <p>Answer - Analyze hundreds of support tickets to spot trends the product team can use</p>
       
       {/* Example of adding a new line with an empty <div> */}
       <div>Support tickets are goldmines for product improvement! By analyzing these tickets, we can identify recurring issues that impact user experience. This helps the product team:</div>
