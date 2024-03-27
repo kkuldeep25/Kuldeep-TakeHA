@@ -9,14 +9,10 @@ const SimpleComponent: React.FC = () => {
       <h1>Hello, World!</h1>
       <p>This is a simple React component written in TypeScript.</p>
       
-      {/* Example of adding a new line with an empty <div> */}
-      <div></div>
-      
-      {/* Example of adding a new line with a comment */}
-      {/* This is a new line */}
-      
-      {/* Example of adding a new line with a self-closing <br> tag */}
+    <div>
+      This is line 1 with a <br /> tag for a single line break.
       <br />
+      This is line 2.
     </div>
   );
 }
