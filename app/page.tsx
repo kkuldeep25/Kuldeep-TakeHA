@@ -9,7 +9,7 @@ const SimpleComponent: React.FC = () => {
       <h1>Rank your 5 most favorite Support tasks.</h1>
       <p>Answer - Analyze hundreds of support tickets to spot trends the product team can use</p>
       
-      {/* Example of adding a new line with an empty <div> */}
+      {/* Example of adding a nez line with an empty <div> */}
       <div>Support tickets are goldmines for product improvement! By analyzing these tickets, we can identify recurring issues that impact user experience. This helps the product team:</div>
 <div>Fix underlying architecture problems</div>
 <div>Move towards scalable designs</div>
