@@ -8,7 +8,7 @@ const SimpleComponent: React.FC = () => {
     <div>
       <h1>Hello, World!</h1>
       <p>This is a simple React component written in TypeScript.</p>
-      
+      </div>
     <div>
       This is line 1 with a <br /> tag for a single line break.
       <br />
