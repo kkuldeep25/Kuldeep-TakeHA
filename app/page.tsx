@@ -1,147 +1,120 @@
-import Image from "next/image";
+// SimpleComponent.tsx
 
-export default function Home() {
+import React from 'react';
+
+// Define a functional component
+const SimpleComponent: React.FC = () => {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Rank your 5 most favorite support tasks Answer 
-          - Analyze hundreds of support tickets to spot trends the product team can use
+    <div>
+      <h1>Rank your 5 most favorite Support tasks.</h1>
+      <p>Answer - Analyze hundreds of support tickets to spot trends the product team can use</p>
+      
+      {/* Example of adding a new line with an empty <div> */}
+      <div>Support tickets are goldmines for product improvement! By analyzing these tickets, we can identify recurring issues that impact user experience. This helps the product team:</div>
+<div>Fix underlying architecture problems</div>
+<div>Move towards scalable designs</div>
+<div> This proactive approach minimizes user impact and strengthens the product overall. Support tickets also reveal customer pain points, allowing the product team to: </div>
+<div> Focus on product robustness</div>
+<div> Align future roadmaps with customer needs</div>
+<div> By working together, support and product teams can deliver a superior customer experience, boosting satisfaction and loyalty. </div>
+<div> ============================================</div>
+<div> Answer - Work with engineering teams during incidents and provide updates to internal and external stakeholders. </div>
+<div> Support managers are key communicators during incidents. We collaborate with internal teams to keep everyone informed (customers, partners, leaders) with clear, timely updates. This transparency manages expectations, minimizes impact, and empowers customers to react (like initiating disaster recovery plans). .</div>
+.<div>Post-resolution, we provide a summary and initial cause analysis. Once the full investigation concludes, we share the final report with customers and explain the post-incident review outcome. This builds trust and ensures everyone learns from the experience, preventing future occurrences.</div>
 
-Support tickets are goldmines for product improvement! By analyzing these tickets, we can identify recurring issues that impact user experience. This helps the product team:
-•	Fix underlying architecture problems
-•	Move towards scalable designs
-•	Plan solutions for potential future issues
-This proactive approach minimizes user impact and strengthens the product overall. Support tickets also reveal customer pain points, allowing the product team to:
-•	Focus on product robustness
-•	Align future roadmaps with customer needs
-By working together, support and product teams can deliver a superior customer experience, boosting satisfaction and loyalty.
-======================
-Most favourite Support tasks.
-Answer - Work with engineering teams during incidents and provide updates to internal and external stakeholders. 
-Support managers are key communicators during incidents. We collaborate with internal teams to keep everyone informed (customers, partners, leaders) with clear, timely updates. This transparency manages expectations, minimizes impact, and empowers customers to react (like initiating disaster recovery plans). 
-Post-resolution, we provide a summary and initial cause analysis. Once the full investigation concludes, we share the final report with customers and explain the post-incident review outcome. This builds trust and ensures everyone learns from the experience, preventing future occurrences.
-=======================
+<div> ===============================================</div>
 
-Most favourite Support tasks.
+<div> Answer 3 -  Work with the product team to develop a new feature based on feedback from customers. </div>
 
-Answer 3 -  Work with the product team to develop a new feature based on feedback from customers. 
+<div> Going the extra mile for customers! As a frontline support manager, I believe in advocating for customer needs. While full feature development might fall outside supports scope, we can still be a bridge between customers and product management. Heres how: </div>
+<div> Champion Customer Feedback: Share the product feedback from customers to product management team. </div>
+<div> Create AHA Tickets: We translate this feedback into detailed AHA tickets (feature request system) outlining specific needs and expectations. </div>
+<div> Transparent Communication: We share the AHA ticket with the customer and key internal stakeholders (account executive, customer success, solution architect) to ensure everyones aligned. </div>
+<div> Estimated Timeframes: We strive to provide customers with estimated timeframes for feature availability whenever possible. </div>
 
- Going the extra mile for customers! As a frontline support manager, I believe in advocating for customer needs. While full feature development might fall outside support's scope, we can still be a bridge between customers and product management. Here's how: 
- Champion Customer Feedback: Share the product feedback from customers to product management team. 
- Create AHA Tickets: We translate this feedback into detailed AHA tickets (feature request system) outlining specific needs and expectations. 
- Transparent Communication: We share the AHA ticket with the customer and key internal stakeholders (account executive, customer success, solution architect) to ensure everyone's aligned. 
- Estimated Timeframes: We strive to provide customers with estimated timeframes for feature availability whenever possible. 
- ====================================
+<div> ====================================</div>
+<div> Answer 4 - Find and recruit teammates for the support team. </div>
+
+<div> Having a good teammate is like having a strong foundation. Hence its very important to build a strong support team by building a team with good teammates having the right attitude and necessary aptitude. </div>
+
+<div> We should hire the right set of support teammates who are passionate about the role with strong integrity. Being in a Customer support role requires a customer-first attitude. Should have the perseverance and determination to work as a team and accomplish support orgs objective. </div>
+
+<div>  Ups and downs are part of any walk of work, one should demonstrate resilience in the face of challenging situations and perseverance to find the solutions and achieve support objectives   </div>
+
+<div> ====================================</div>
+<div> Answer 5 Work with 3rd party partners to track down a tricky situation for a joint customer. </div>
+
+<div> To tackle business-critical issues, Id collaborate with 3rd party partners. This means bringing in the right subject matter experts and working together on all aspects of the investigation. Open communication is key, with clear expectations set for stakeholders. Id manage timelines, ensuring data gathering, diagnostics, and troubleshooting happen efficiently. Progress updates and potential escalations would be provided. Post-resolution, customer satisfaction and a partner review session ensure continuous improvement. </div>
+
+<div>==================================================</div>
+
+<div>Rank your 5 least favourite Support tasks</div>
+
+<div> Work with people to figure out if Vercel is suitable for their use case</div>
+<div> Acknowledging the significance of pitching Vercel for diverse use cases, I must prioritize support duties. Deep involvement might compromise essential support deliverables. These tasks usually fall under customer success and solutions architecture. To aid, Ill redirect inquiries to suitable teams like solutions architects, customer success, accounts executives, ensuring thorough support while upholding my core support responsibilities. </div>
+
+<div> ========================================</div>
+
+<div>Rank your 5 least favourite Support tasks</div>
+<div> Respond to queries on Twitter, Reddit, Hacker News and other 3rd party sites</div>
+<div> While it would be an honor to represent Vercel in public forums and assist Vercel community users, prioritizing other critical deliverables takes precedence. This task will have a lower priority on my to-do list. However, I am committed to supporting the Vercel community during my spare time once Ive completed my primary work 
+responsibilities. </div>
+
+<div> =========================</div>
+<div>Rank your 5 least favourite Support tasks</div>
+
+<div> Respond to 50+ support requests via email every day</div>
+<div> Manual responses for 50+ support emails arent scalable and consume significant time. Support requests should funnel through valid channels like web/app ticketing portals or email-to-ticketing tool webhooks. Although email (e.g., help@abc.com, support@abc.com) is convenient for customers, workflow automation tools like Zapier are vital. They automate ticket creation and provide auto-responses with case details. </div>
+
+<div> ================================</div>
+<div>Rank your 5 least favourite Support tasks</div>
 
 
+<div> Create video tutorials to help teach users a specific feature or use case</div>
+<div> While Im enthusiastic about crafting self-help guides and documentation in web format, I have reservations about my ability to create high-quality video tutorials. To ensure professional presentation and inclusion of essential visual components, I intend to enlist the Technical Documentation team for video creation. </div>
+<div> ====================================</div>
+
+<div>Rank your 5 least favourite Support tasks</div>
+<div> Dig through logs to troubleshoot a customers broken project</div>
+<div> While Im eager to assist customers, Ill prioritize timely resolutions and avoid potential delays by relying on subject matter experts or support engineers for troubleshooting. Ill study the root cause to enhance my knowledge. </div>
+
+===============================
+
+<div> What do you want to learn or do more of at work? </div>
 
 
+<div> When it comes to learning, Ill thoroughly explore Next.js functionalities and its unique features compared to React.js. Moreover, Ill delve into Vercels SaaS platform architecture to understand its offerings better and ensure Im well-prepared to support Next.js applications on the Vercel platform. </div>
+
+<div> To continue with the learning, I would start by immersing myself in the product, services and team dynamics. This approach would help me to learn and build strong relationships with both the people/team and product/technology. </div>
+
+<div>My existing technical background and eagerness to learn will help to quickly grasp the product and processes with a lesser learning curve. This would set the stage for me to start contributing meaningfully. </div>
+
+<div> A deep understanding of the product empowers me to see things from the customers perspective. This lets me identify how theyre using it, where they might be facing challenges, and how we can help them maximize product potential to solve their problems. </div>
+
+<div> In tandem with mastering the technical aspects, Ill also delve into the customer support operations side. Heres my plan</div>
+
+<div> Ill map the existing data landscape utilized by the support team. Leveraging these data points for analysis will provide valuable insights to enhance customer support. This will help me to quickly start taking Data driven decisions. </div>
+
+<div> By leveraging data and team experience, Ill develop a data-driven action plan to address key areas for improvement. This plan will focus on: </div>
+<div> Identifying opportunities to streamline workflows, reduce redundancies, and enhance technical capabilities within the support team. </div>
+<div>Analyzing data to pinpoint areas which need improvements. </div>
+<div>To minimize Internal Dependencies I would start assessing reliance on other teams and exploring options for greater self-sufficiency within the support team, potentially through knowledge-sharing or cross-training initiatives. </div>
+<div>Evaluating processes for automation opportunities to reduce manual tasks and expedite turn around times. </div>
+<div>Identifying common customer issues that could be addressed through improved self-service resources (e.g., knowledge base articles, FAQs, troubleshooting guides). </div>
+<div>Identifying and addressing any gaps in existing documentation to ensure clarity, completeness, and accessibility for both customers and support staff. </div>
 
 
+<div> ========================================</div>
 
-          <code className="font-mono font-bold">app/page.tsx</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
 
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-full sm:before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full sm:after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore starter templates for Next.js.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50 text-balance`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+      
+      {/* Example of adding a new line with a comment */}
+      {/* This is a new line */}
+      
+      {/* Example of adding a new line with a self-closing <br> tag */}
+      <br />
+    </div>
   );
 }
+
+export default SimpleComponent;
