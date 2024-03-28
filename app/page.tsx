@@ -21,7 +21,7 @@ const SimpleComponent: React.FC = () => {
 <div>Rank your 5 most favourite Support tasks.</div>
 <div> Answer - Work with engineering teams during incidents and provide updates to internal and external stakeholders. </div>
 <div> Support managers are key communicators during incidents. We collaborate with internal teams to keep everyone informed (customers, partners, leaders) with clear, timely updates. This transparency manages expectations, minimizes impact, and empowers customers to react (like initiating disaster recovery plans). .</div>
-.<div>Post-resolution, we provide a summary and initial cause analysis. Once the full investigation concludes, we share the final report with customers and explain the post-incident review outcome. This builds trust and ensures everyone learns from the experience, preventing future occurrences.</div>
+<div>Post-resolution, we provide a summary and initial cause analysis. Once the full investigation concludes, we share the final report with customers and explain the post-incident review outcome. This builds trust and ensures everyone learns from the experience, preventing future occurrences.</div>
 
 <div> ===============================================</div>
 <div>Rank your 5 most favourite Support tasks.</div>
@@ -112,10 +112,6 @@ responsibilities. </div>
 
 <div> Describe how you solved a challenge or technical issue that you faced in a previous role (preferably in a previous support role). How did you determine that your solution was successful? </div>
 
-
-
-
-
 <div> I encountered a significant challenge that encompassed both technical and operational aspects. A highly escalated customer reported a critical issue with a data pipeline, impacting various downstream applications crucial for business insights, including ETL processes, databases, and visualization tools like PowerBI and Tableau. </div>
 <div> The data pipeline handled processed data, with its processing logic in Spark on the Databricks platform. However, a prerequisite program on another server, managed by third-party software, complicated matters. </div>
 <div> Operationally, the customer inadvertently raised duplicate cases, resulting in negative feedback from their leadership despite our clarification that the issue lay with the third-party vendor. In response, I, as the duty manager, engaged with the customer directly, despite the unavailability of the assigned engineer due to personal reasons. </div>
@@ -183,19 +179,19 @@ out. It must be a platform issue so just fix it for me instead of asking me ques
 
 <div> Question No 7</div>
 <div> A customer writes in to the Helpdesk asking "How do I do a redirect from the /blog
-path to https://example.com?" Please write a reply to the customer. Feel free to add any
+path to https://example.com Please write a reply to the customer. Feel free to add any
 information about your decision making process after the reply. </div>
 
 <div> Assuming that Customer is using Apache or tomcat. I will be using both as example. </div>
 
 
-<div> Subject: Re: Redirecting /blog path to https://example.com</div>
+<div> Subject: Re: Redirecting /blog path to example.com</div>
 
 <div> Hi CustomerName, </div>
 
 <div> Thanks for reaching out to Vercel support. My name is (My Name) and I will be assisting you with this ticket. </div>
 
-<div> To set up a redirect from /blog path to https://example.com you can utilize the below methods depending on the web server configuration and setup. </div>
+<div> To set up a redirect from /blog path to example.com you can utilize the below methods depending on the web server configuration and setup. </div>
 
 <div> Considering security aspects in mind, we would highly recommend using a server-side redirect. The reason being that it is the most reliable and secure way to implement a redirect. </div>
 
@@ -203,22 +199,16 @@ information about your decision making process after the reply. </div>
 
 <div> -------------------------</div>
 <div> RewriteEngine On</div>
-<div> RewriteRule ^blog$ https://example.com [R=302,L] </div>
+<div> RewriteRule blog example.com (R=302,L) </div>
 <div> --------------------------</div>
 <div> This would need Apache restart so that the configuration is picked up. </div>
 
-<div> If tomcat is the web server -</div>
+<div> If tomcat is the web server </div>
 <div> This method involves editing your tomcat applications context.xml file. Within the (Context) element, you can add a valve element configured for redirection</div>
 
 <div> Take a backup of context.xml (In linux, cp context.xml /backup/tomcat_context.bck.xml) </div>
 <div>  Open context.xml in any text editor (vi) </div>
 <div> ----------------------------</div>
-<div> Context docBase="your_app_location
-  ... other configurations ...
-  Valve className="org.apache.catalina.valves.rewrite.RewriteValve"
-    RewriteRule pattern="/blog(.*)" replacement="https://example.com/" redirect="true" /
-  /Valve
-	Context</div>
 <div> --------------------------</div>
 
 <div> Restart tomcat</div>
@@ -228,21 +218,21 @@ information about your decision making process after the reply. </div>
 
 <div> Syntax Explaination - </div>
 
-<div> pattern="/blog(.*)": This matches any request starting with /blog, capturing anything that follows as a group ((.*)).</div>
+<div> pattern="/blog(.*)": This matches any request starting with /blog, capturing anything that follows as a group (.*).</div>
 <div> replacement="https://example.com/": This defines the target URL for the redirection. </div>
 <div> redirect="true": This specifies a permanent (301) redirect. </div>
 
 
-<div> Additional details 
+<div> Additional details </div>
 <div> Compared to client side redirects, the reason we highly recommend using server-side redirects is for the below reasons
-1. It ensures all users are redirected, regardless of their browser or device
-2. Server-side redirects happen before any content is loaded, potentially improving website security.
-3. Server-side redirects are generally faster than client-side redirects</div>
+1.It ensures all users are redirected, regardless of their browser or device
+2.Server-side redirects happen before any content is loaded, potentially improving website security.
+3.Server-side redirects are generally faster than client-side redirects</div>
 
-<div>301 vs. 302 Redirect: When implementing a server-side redirect, youll need to choose between a 301 (permanent) or 302 (temporary) redirect. A 301 redirect is the best choice in this case, as it informs search engines that the /blog path has permanently moved. (in context.xml - redirect="true": This specifies a permanent (301) redirect.) </div>
+<div>301 vs. 302 Redirect: When implementing a server-side redirect, youll need to choose between a 301 (permanent) or 302 (temporary) redirect. A 301 redirect is the best choice in this case, as it informs search engines that the /blog path has permanently moved. (in context.xml - redirect=true: This specifies a permanent 301 redirect.) </div>
 <div>If you have existing links pointing to specific blog posts under the "/blog" path, you may need to update them to point directly to the new location on your main domain. </div>
 
-<div>Hope that with the above information, you should be able to accomplish the desired result. If in case of any further assistance needed, please do not hesitate to reach out to us and we will be happy to help. </div>
+<div>Hope that with the above information you should be able to accomplish the desired result. If in case of any further assistance needed, please do not hesitate to reach out to us and we will be happy to help. </div>
 
 <div>Best regards, </div>
 <div> (My full name) </div>
