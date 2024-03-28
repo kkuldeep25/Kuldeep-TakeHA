@@ -17,13 +17,27 @@ This proactive approach minimizes user impact and strengthens the product overal
 •	Align future roadmaps with customer needs
 By working together, support and product teams can deliver a superior customer experience, boosting satisfaction and loyalty.
 ======================
-<br />
-
 Most favourite Support tasks.
 Answer - Work with engineering teams during incidents and provide updates to internal and external stakeholders. 
 Support managers are key communicators during incidents. We collaborate with internal teams to keep everyone informed (customers, partners, leaders) with clear, timely updates. This transparency manages expectations, minimizes impact, and empowers customers to react (like initiating disaster recovery plans). 
 Post-resolution, we provide a summary and initial cause analysis. Once the full investigation concludes, we share the final report with customers and explain the post-incident review outcome. This builds trust and ensures everyone learns from the experience, preventing future occurrences.
 =======================
+
+Most favourite Support tasks.
+
+Answer 3 -  Work with the product team to develop a new feature based on feedback from customers. 
+
+ Going the extra mile for customers! As a frontline support manager, I believe in advocating for customer needs. While full feature development might fall outside support's scope, we can still be a bridge between customers and product management. Here's how: 
+ Champion Customer Feedback: Share the product feedback from customers to product management team. 
+ Create AHA Tickets: We translate this feedback into detailed AHA tickets (feature request system) outlining specific needs and expectations. 
+ Transparent Communication: We share the AHA ticket with the customer and key internal stakeholders (account executive, customer success, solution architect) to ensure everyone's aligned. 
+ Estimated Timeframes: We strive to provide customers with estimated timeframes for feature availability whenever possible. 
+ ====================================
+
+
+
+
+
 
 
           <code className="font-mono font-bold">app/page.tsx</code>
