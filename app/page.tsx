@@ -6,7 +6,7 @@ import React from 'react';
 const SimpleComponent: React.FC = () => {
   return (
     <div>
-      <h1>Rank your 5 most favourite Support tasks.</h1>
+      <h1>Rank your 5 most favorite Support tasks.</h1>
       <p>Answer - Analyze hundreds of support tickets to spot trends the product team can use</p>
       
       {/* Example of adding a new line with an empty <div> */}
@@ -34,17 +34,17 @@ const SimpleComponent: React.FC = () => {
 <div> Estimated Timeframes: We strive to provide customers with estimated timeframes for feature availability whenever possible. </div>
 
 <div> ====================================</div>
-<div>Rank your 5 most favorite Support tasks.</div>
+<div>Rank your 5 most favourite Support tasks.</div>
 <div> Answer 4 - Find and recruit teammates for the support team. </div>
 
-<div> Having a good teammate is like having a strong foundation. Hence it is very important to build a strong support team by building a team with good teammates having the right attitude and necessary aptitude. </div>
+<div> Having a good teammate is like having a strong foundation. Hence its very important to build a strong support team by building a team with good teammates having the right attitude and necessary aptitude. </div>
 
 <div> We should hire the right set of support teammates who are passionate about the role with strong integrity. Being in a Customer support role requires a customer-first attitude. Should have the perseverance and determination to work as a team and accomplish support orgs objective. </div>
 
 <div>  Ups and downs are part of any walk of work, one should demonstrate resilience in the face of challenging situations and perseverance to find the solutions and achieve support objectives   </div>
 
 <div> ====================================</div>
-<div>Rank your 5 most favorite Support tasks.</div>
+<div>Rank your 5 most favourite Support tasks.</div>
 <div> Answer 5 Work with 3rd party partners to track down a tricky situation for a joint customer. </div>
 
 <div> To tackle business-critical issues, Id collaborate with 3rd party partners. This means bringing in the right subject matter experts and working together on all aspects of the investigation. Open communication is key, with clear expectations set for stakeholders. Id manage timelines, ensuring data gathering, diagnostics, and troubleshooting happen efficiently. Progress updates and potential escalations would be provided. Post-resolution, customer satisfaction and a partner review session ensure continuous improvement. </div>
@@ -58,26 +58,26 @@ const SimpleComponent: React.FC = () => {
 
 <div> ========================================</div>
 
-<div>Rank your 5 least favorite Support tasks</div>
+<div>Rank your 5 least favourite Support tasks</div>
 <div> Answer - Respond to queries on Twitter, Reddit, Hacker News and other 3rd party sites</div>
 <div> While it would be an honor to represent Vercel in public forums and assist Vercel community users, prioritizing other critical deliverables takes precedence. This task will have a lower priority on my to-do list. However, I am committed to supporting the Vercel community during my spare time once Ive completed my primary work 
 responsibilities. </div>
 
 <div> =========================</div>
-<div>Rank your 5 least favorite Support tasks</div>
+<div>Rank your 5 least favourite Support tasks</div>
 
 <div> Answer -Respond to 50+ support requests via email every day</div>
 <div> Manual responses for 50+ support emails arent scalable and consume significant time. Support requests should funnel through valid channels like web/app ticketing portals or email-to-ticketing tool webhooks. Although email (e.g., help@abc.com, support@abc.com) is convenient for customers, workflow automation tools like Zapier are vital. They automate ticket creation and provide auto-responses with case details. </div>
 
 <div> ================================</div>
-<div>Rank your 5 least favorite Support tasks</div>
+<div>Rank your 5 least favourite Support tasks</div>
 
 
 <div> Answer -Create video tutorials to help teach users a specific feature or use case</div>
 <div> While Im enthusiastic about crafting self-help guides and documentation in web format, I have reservations about my ability to create high-quality video tutorials. To ensure professional presentation and inclusion of essential visual components, I intend to enlist the Technical Documentation team for video creation. </div>
 <div> ====================================</div>
 
-<div>Rank your 5 least favorite Support tasks</div>
+<div>Rank your 5 least favourite Support tasks</div>
 <div> Answer - Dig through logs to troubleshoot a customers broken project</div>
 <div> While Im eager to assist customers, Ill prioritize timely resolutions and avoid potential delays by relying on subject matter experts or support engineers for troubleshooting. Ill study the root cause to enhance my knowledge. </div>
 
@@ -209,7 +209,7 @@ information about your decision making process after the reply. </div>
 <div> Take a backup of context.xml (In linux, cp context.xml /backup/tomcat_context.bck.xml) </div>
 <div>  Open context.xml in any text editor (vi) </div>
 <div> ----------------------------</div>
-<div> --------------------------</div>
+
 
 <div> Restart tomcat</div>
 
@@ -224,10 +224,10 @@ information about your decision making process after the reply. </div>
 <div> --------------------------</div>
 
 <div> Additional details </div>
-<div> Compared to client side redirects, the reason we highly recommend using server-side redirect is for the below reasons
-1.It ensures all users are redirected, regardless of their browser or device
-2.Server-side redirects happen before any content is loaded, potentially improving website security.
-3.Server-side redirects are generally faster than client-side redirects</div>
+<div> Compared to client side redirects, the reason we highly recommend using server-side redirect is for the below reasons</div>
+<div>1.It ensures all users are redirected, regardless of their browser or device</div>
+<div>2.Server-side redirects happen before any content is loaded, potentially improving website security.</div>
+<div>3.Server-side redirects are generally faster than client-side redirects</div>
 
 <div>301 vs. 302 Redirect: When implementing a server-side redirect, youll need to choose between a 301 (permanent) or 302 (temporary) redirect. A 301 redirect is the best choice in this case, as it informs search engines that the /blog path has permanently moved. (in context.xml - redirect=true: This specifies a permanent 301 redirect.) </div>
 <div>If you have existing links pointing to specific blog posts under the blog path, you may need to update them to point directly to the new location on your main domain. </div>
@@ -238,6 +238,92 @@ information about your decision making process after the reply. </div>
 <div> (My full name) </div>
 <div> (Designation) </div>
 <div>(Company Logo and helpdesk contact details) </div>
+
+<div> =========================================</div>
+<div> Question No 8 </div>
+
+<div> A customer is creating a site and would like their project not to be indexed by search engines. Please write a reply to the customer. Feel free to add any information about your decision making process after the reply. </div>
+
+<div> My answer </div>
+<div> Hi CustomerName, </div>
+
+<div> Thanks for reaching out to Vercel support. My name is (My Name) and I will be assisting you with this ticket. </div>
+
+<div> After reviewing your ask, we see that there are a couple of ways to prevent search engines from indexing your website. </div>
+
+<div> Using Robots.txt </div>
+<div> The go-to method is creating a robots.txt file. Placed at the root of your website, this file acts like a guide for search engine crawlers, telling them which pages are off-limits for indexing. A simple example would be a line disallowing all indexing as exampled below. </div>
+<div> -------------------------</div>
+<div> User-agent: *</div>
+<div> Disallow: /</div>
+<div> --------------------------</div>
+<div> For more granular control, consider meta robots tags. Placed within the (head) section of individual website HTML code, these tags offer specific indexing instructions for those pages. In contrast, robots.txt works at a broader website level. </div>
+
+<div> The below example of a meta robots tag instructs search engines not to index the page </div>
+
+<div> -----------------------</div>
+
+<div>  name robots content noindex </div>
+<div> ------------------------</div>
+
+<div> Robots.txt is generally preferred for simplicity when you want to prevent indexing of your entire website. </div>
+<div> Meta robots tags are useful for selectively preventing indexing of specific pages while allowing others to be indexed. </div>
+
+
+<div> We assume that your website is still in development phase and hence you do not want to get the website indexed. </div>
+
+<div> However the above instructions are not fool proof and does not guarantee that the search engines wont try to crawl your site for indexing purposes. This primarily instruct search engines on how to handle your website. </div>
+
+<div> Once the website is ready for production launch, you may need to consider removing these restrictions so that the search engines index your content</div>
+
+<div> Additional we would also like to suggest to use password protecting your website if you desire to add a extra layer of security until you are ready for public launch. </div>
+
+<div>Hope the above-provided solutions are sufficient to accomplish your desired outcome. If you have any further questions or need help implementing these solutions, please contact us. Thank you. </div>
+
+<div>Best regards, </div>
+<div> (My full name) </div>
+<div> (Designation) </div>
+<div> (Company Logo and helpdesk contact details) </div>
+
+
+<div>======================================================</div>
+
+<div> Question No 9 </div>
+
+<div> What do you think is one of the most common problems which customers ask Vercel for help with? How would you help customers to overcome common problems, 
+short-term and long-term </div>
+
+<div> Deployment issues could be one of the most common customer problems Vercel customers could be facing. </div>
+
+<div> Customers might face various deployment issues during the development and lunch process. These could be further classified into as below. </div>
+
+<div> 1.Build errors during deployment. </div>
+<div> 2.Configuration issues with environment variables or serverless functions</div>
+<div> 3.Domain name or SSL certificate problems</div>
+<div> 4. Slower deployment issues</div>
+
+
+<div>Short-Term Solutions: </div>
+<div>Uncovering Issues Quickly needs Real-Time Debugging: Vercels platform should be equipped with real-time logging and debugging tools. This allows developers to pinpoint issues as they occur during deployment, minimizing troubleshooting time. </div>
+<div> Proactive Pre-Deployment Checks: The Vercel build platform can incorporate pre-requisite checks and audits. These proactive measures ensure all deployment dependencies are met before deployment begins, helping to prevent potential issues and downtime. </div>
+<div> Self-Service Rollback Functionality: Empower customers with a rollback feature. This allows them to revert to a previous deployment state if something goes wrong, minimizing downtime and frustration. </div>
+<div> Knowledge Base and Support Bot: Develop a comprehensive knowledge base that captures common deployment issues and their resolutions. Ensure the knowledge base is well-maintained and covers a wide range of deployment scenarios. Additionally, consider a self-service support bot powered by a well-trained LLM (Large Language Model) to offer customers immediate and relevant assistance. </div>
+<div> Long Term Solutions  Building Resilience and Community</div>
+<div> Problem Management Approach: Elevate common deployment issues to a problem management level. This involves collaborating with all internal stakeholders to identify and implement permanent solutions, not just temporary fixes. </div>
+<div> Root Cause Analysis: For each deployment issue, conduct a thorough root cause analysis. Look for common trends and share these insights with the engineering team. Track issues until permanent resolutions are in place. Brainstorming sessions with engineering and other stakeholders can also be valuable in uncovering root causes and determining if architectural changes are necessary. </div>
+<div> Comprehensive Documentation and Community Engagement: Invest in creating user-friendly documentation encompassing common deployment scenarios, framework configuration details, and troubleshooting guides. An active support team presence in community forums can further assist customers by highlighting resolution steps for common issues, promoting faster self-service and reducing downtime. </div>
+<div>=============================================</div>
+
+<div>Question No 10</div>
+
+<div> Question How could we improve or alter this familiarisation exercise </div>
+
+<div>I see that this familiarization exercise on Vercel is quite good and spot on.This really helped me to know what Vercel product and solutions is all about and how its helping enterprise application deployment. However To make the Vercel familiarization even more engaging, consider adding an interactive quiz section. Heres how quizzes could elevate the learning experience</div>
+<div> Quizzes provide a fun way to assess understanding of key concepts covered in the familiarization program. They can include multiple-choice questions, scenario-based challenges, or even matching exercises. Quiz can also cover topics related to Vercels product offering and its capabilities. </div>
+
+<div>=============================================</div>
+<div>Thanks for the familiarization assessment. This was very helpful. </div>
+
 
 
 
