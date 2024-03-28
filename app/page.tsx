@@ -6,7 +6,7 @@ import React from 'react';
 const SimpleComponent: React.FC = () => {
   return (
     <div>
-      <h1>Rank your 5 most favorite Support tasks.</h1>
+      <h1>Rank your 5 most favourite Support tasks.</h1>
       <p>Answer - Analyze hundreds of support tickets to spot trends the product team can use</p>
       
       {/* Example of adding a new line with an empty <div> */}
@@ -34,17 +34,17 @@ const SimpleComponent: React.FC = () => {
 <div> Estimated Timeframes: We strive to provide customers with estimated timeframes for feature availability whenever possible. </div>
 
 <div> ====================================</div>
-<div>Rank your 5 most favourite Support tasks.</div>
+<div>Rank your 5 most favorite Support tasks.</div>
 <div> Answer 4 - Find and recruit teammates for the support team. </div>
 
-<div> Having a good teammate is like having a strong foundation. Hence its very important to build a strong support team by building a team with good teammates having the right attitude and necessary aptitude. </div>
+<div> Having a good teammate is like having a strong foundation. Hence it is very important to build a strong support team by building a team with good teammates having the right attitude and necessary aptitude. </div>
 
 <div> We should hire the right set of support teammates who are passionate about the role with strong integrity. Being in a Customer support role requires a customer-first attitude. Should have the perseverance and determination to work as a team and accomplish support orgs objective. </div>
 
 <div>  Ups and downs are part of any walk of work, one should demonstrate resilience in the face of challenging situations and perseverance to find the solutions and achieve support objectives   </div>
 
 <div> ====================================</div>
-<div>Rank your 5 most favourite Support tasks.</div>
+<div>Rank your 5 most favorite Support tasks.</div>
 <div> Answer 5 Work with 3rd party partners to track down a tricky situation for a joint customer. </div>
 
 <div> To tackle business-critical issues, Id collaborate with 3rd party partners. This means bringing in the right subject matter experts and working together on all aspects of the investigation. Open communication is key, with clear expectations set for stakeholders. Id manage timelines, ensuring data gathering, diagnostics, and troubleshooting happen efficiently. Progress updates and potential escalations would be provided. Post-resolution, customer satisfaction and a partner review session ensure continuous improvement. </div>
@@ -58,26 +58,26 @@ const SimpleComponent: React.FC = () => {
 
 <div> ========================================</div>
 
-<div>Rank your 5 least favourite Support tasks</div>
+<div>Rank your 5 least favorite Support tasks</div>
 <div> Answer - Respond to queries on Twitter, Reddit, Hacker News and other 3rd party sites</div>
 <div> While it would be an honor to represent Vercel in public forums and assist Vercel community users, prioritizing other critical deliverables takes precedence. This task will have a lower priority on my to-do list. However, I am committed to supporting the Vercel community during my spare time once Ive completed my primary work 
 responsibilities. </div>
 
 <div> =========================</div>
-<div>Rank your 5 least favourite Support tasks</div>
+<div>Rank your 5 least favorite Support tasks</div>
 
 <div> Answer -Respond to 50+ support requests via email every day</div>
 <div> Manual responses for 50+ support emails arent scalable and consume significant time. Support requests should funnel through valid channels like web/app ticketing portals or email-to-ticketing tool webhooks. Although email (e.g., help@abc.com, support@abc.com) is convenient for customers, workflow automation tools like Zapier are vital. They automate ticket creation and provide auto-responses with case details. </div>
 
 <div> ================================</div>
-<div>Rank your 5 least favourite Support tasks</div>
+<div>Rank your 5 least favorite Support tasks</div>
 
 
 <div> Answer -Create video tutorials to help teach users a specific feature or use case</div>
 <div> While Im enthusiastic about crafting self-help guides and documentation in web format, I have reservations about my ability to create high-quality video tutorials. To ensure professional presentation and inclusion of essential visual components, I intend to enlist the Technical Documentation team for video creation. </div>
 <div> ====================================</div>
 
-<div>Rank your 5 least favourite Support tasks</div>
+<div>Rank your 5 least favorite Support tasks</div>
 <div> Answer - Dig through logs to troubleshoot a customers broken project</div>
 <div> While Im eager to assist customers, Ill prioritize timely resolutions and avoid potential delays by relying on subject matter experts or support engineers for troubleshooting. Ill study the root cause to enhance my knowledge. </div>
 
@@ -178,7 +178,7 @@ out. It must be a platform issue so just fix it for me instead of asking me ques
 <div> =====================================</div>
 
 <div> Question No 7</div>
-<div> A customer writes in to the Helpdesk asking "How do I do a redirect from the /blog
+<div> A customer writes in to the Helpdesk asking How do I do a redirect from the /blog
 path to https://example.com Please write a reply to the customer. Feel free to add any
 information about your decision making process after the reply. </div>
 
@@ -215,22 +215,22 @@ information about your decision making process after the reply. </div>
 
 <div> Once implemented, thoroughly test your redirects to ensure they work as expected. </div>
 
-
+<div> --------------------------</div>
 <div> Syntax Explaination - </div>
 
-<div> pattern="/blog(.*)": This matches any request starting with /blog, capturing anything that follows as a group (.*).</div>
-<div> replacement="https://example.com/": This defines the target URL for the redirection. </div>
-<div> redirect="true": This specifies a permanent (301) redirect. </div>
-
+<div> pattern=/blog(.*) This matches any request starting with /blog, capturing anything that follows as a group (.*).</div>
+<div> replacement=example.com - This defines the target URL for the redirection. </div>
+<div> redirect=true This specifies a permanent (301) redirect. </div>
+<div> --------------------------</div>
 
 <div> Additional details </div>
-<div> Compared to client side redirects, the reason we highly recommend using server-side redirects is for the below reasons
+<div> Compared to client side redirects, the reason we highly recommend using server-side redirect is for the below reasons
 1.It ensures all users are redirected, regardless of their browser or device
 2.Server-side redirects happen before any content is loaded, potentially improving website security.
 3.Server-side redirects are generally faster than client-side redirects</div>
 
 <div>301 vs. 302 Redirect: When implementing a server-side redirect, youll need to choose between a 301 (permanent) or 302 (temporary) redirect. A 301 redirect is the best choice in this case, as it informs search engines that the /blog path has permanently moved. (in context.xml - redirect=true: This specifies a permanent 301 redirect.) </div>
-<div>If you have existing links pointing to specific blog posts under the "/blog" path, you may need to update them to point directly to the new location on your main domain. </div>
+<div>If you have existing links pointing to specific blog posts under the blog path, you may need to update them to point directly to the new location on your main domain. </div>
 
 <div>Hope that with the above information you should be able to accomplish the desired result. If in case of any further assistance needed, please do not hesitate to reach out to us and we will be happy to help. </div>
 
